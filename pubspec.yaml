@@ -1,0 +1,48 @@
+name: money_managment_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  awesome_circular_chart: ^1.0.0
+  cupertino_icons: ^1.0.2
+  date_time_picker: ^2.1.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.6
+  image_picker: ^0.8.6
+  intl: ^0.17.0
+  provider: ^6.0.4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/onbording.png
+    - assets/images/ElonMusk.jpg
+    - assets/images/in.svg
+    - assets/images/out.svg
+    - assets/images/home_disable.svg
+    - assets/images/home_enable.svg
+    - assets/images/person_enable.svg
+    - assets/images/person_disable.svg
+    - assets/images/statitics_disable.svg
+    - assets/images/statitics_enable.svg
+    - assets/images/tran_disable.svg
+    - assets/images/tran_enable.svg
+    - assets/images/combo_down_icon.svg
+  fonts:
+    - family: inter
+      fonts:
+        - asset: assets/fonts/inter.ttf
